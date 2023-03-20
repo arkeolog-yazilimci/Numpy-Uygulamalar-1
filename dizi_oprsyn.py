@@ -32,4 +32,6 @@ result = numbers1 % 2 == 0
 
 print(numbers1[result]) #koşulu sağlayan true değerleri dönndürür
 
+
+
 print(result)

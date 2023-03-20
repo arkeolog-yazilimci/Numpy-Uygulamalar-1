@@ -24,6 +24,28 @@ colTotal = matris.sum(axis = 0)
 print(matris)
 print(rowTotal)
 print(colTotal)
+result = matris.max() #matrisin en büyük ve en küçük sayısı
+result = matris.min()
 
+result = matris.mean() #ortalaması matrisin
 
+result = matris.argmax() # matrisin en büyük değerinin indeksi
+result = matris.argmin() # matrisin en küçük değerinin indeksi
 
+arr = np.arange(10,20) # 10 ile 20 arası dizinin ilk 3 elemanı
+result = arr[0:3]
+
+result = arr[::-1] #tersten yazdır
+
+result = matris[0] # matrisin ilk satırı
+result = matris[1,2] # 2.satır 3.sütun değeri
+
+result = matris[:,0] # matrisin tüm satırlardaki ilk elemanları
+result = matris**2 # matrisin her bir elemanın karesi
+
+result = matris %2 == 0# matris elamanlarının hangisi pozitif çift sayı aralık(-50,50) True False
+result = matris[matris %2 == 0] # matris elamanlarının hangisi pozitif çift sayı aralık(-50,50) sayıy gösterir
+
+ciftler = result = matris[matris %2 == 0]
+result = ciftler[ciftler>0]
+print(result)
